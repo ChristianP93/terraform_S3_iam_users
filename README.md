@@ -94,8 +94,8 @@ terraform output -json
 
 This project creates two IAM users:
 
-1. **IASAI-write-worker**: Has full permissions to upload, modify, delete, and read all files in the S3 bucket.
-2. **IASAI-read-worker**: Has read-only permissions for the S3 bucket.
+1. **write-worker**: Has full permissions to upload, modify, delete, and read all files in the S3 bucket.
+2. **read-worker**: Has read-only permissions for the S3 bucket.
 
 ## Cleaning Up
 
