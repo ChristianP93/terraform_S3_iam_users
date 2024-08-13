@@ -6,11 +6,11 @@ This Terraform project creates a private S3 bucket for storing images and sets u
 
 ```
 project-root/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── provider.tf
-├── modules/
+├── terraform
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   ├── provider.tf
 │   ├── s3/
 │   │   ├── main.tf
 │   │   ├── variables.tf
@@ -19,6 +19,7 @@ project-root/
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
+├── LICENSE
 └── README.md
 ```
 
